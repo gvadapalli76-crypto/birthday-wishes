@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="backgroundBalloons"></div>
+<div id="hearts"></div>
+
+    <div class="container">
+
+        <h1>🎉 Happy Birthday 🎉</h1>
+
+        <h2>Dear Padhu ❤️</h2>
+
+        <img src="images/padhu.jpg" alt="Padhu" class="birthday-photo">
+
+        <p>Wishing you a very Happy Birthday, Padhu! 🎂</p>
+
+        <button id="surpriseBtn" onclick="startSurprise()">
+            🎁 Click for Surprise
+        </button>
+
+        <div id="balloonArea"></div>
+
+        <button id="nextBtn" onclick="showGift()">
+            Next ❤️
+        </button>
+
+        <div id="giftArea">
+            <div id="giftBox" onclick="openGift()">
+                🎁
+            </div>
+        </div>
+
+        <p id="finalMessage"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
